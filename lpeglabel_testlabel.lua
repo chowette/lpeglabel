@@ -488,7 +488,7 @@ assert(r == nil and l == 'L5' and poserr == 1)
 print("+")
 
 
-local re = require 'relabel'
+local re = require 'lpeglabel.relabel'
 
 g = re.compile[['a' / %{l1}
 ]]

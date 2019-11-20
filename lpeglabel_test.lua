@@ -1261,7 +1261,7 @@ end
 -------------------------------------------------------------------
 print"testing 're' module"
 
-local re = require "relabel"
+local re = require "lpeglabel.relabel"
 
 local match, compile = re.match, re.compile
 
